@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+/* Navbar Start */
+nav ul li a{
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding: 5px 0;
+}
+nav ul li a::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+nav ul li a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+/* Navbar End */
+/* Jumbotron Start */
+.jumbotron{
+    padding-top: 2rem;
+    margin-top: 100px;
+    
+    background-color: #00006b;
+}
+.jumbotron .txt-dinamis {
+    margin-top: 20px;
+    color: #FC6D6D;
+}
+.jumbotron .txt-dinamis span{
+    font-size: 1.3em;
+    position: relative;
+    
+}
+
+.jumbotron h5{
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.945);
+    margin-top: 10px;
+}
+
+/* Jumbotron End */
+ul li a{
+    margin: auto 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+   
+}
+hr{
+    width: 200px;
+   border-top: 10px solid rgb(0, 9, 87);
+   border-radius: 10px;
+   margin: auto;
+}
+/* info panel start */
+.info-panel{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    margin-top: 140px;
+    background-color: white;
+    padding: 30px;
+}
+span{
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.info-panel img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.info-panel h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.info-panel p{
+    font-size: 14px;
+    color: rgb(22, 0, 83);
+    margin-top: -5px;
+    font-weight: 200;
+}
+.container .panel{
+margin-top: -200px;
+margin-bottom: 50px;
+}
+/* infopanel end */
+/* about start */
+.about-wrap{
+    margin-bottom: 100px;
+}
+.about img{
+    width: 100%;
+}
+/* about end */
+/* project start */
+section .project{
+    margin-top: -100px;
+}
+.project hr{
+    width: 200px;
+   border: 6px solid rgb(255, 255, 255);
+   border-radius: 10px;
+   margin: auto;
+
+}
+/* project end */
+/* contact start */
+.contact__input{
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 2px solid #00006b;
+    outline: none;
+    margin-bottom: 20px;
+}
+.contact__button{
+    width: 150px;
+    border: none;
+    margin: auto 20px;
+    outline: none;
+    cursor: pointer;
+    background-color: #00006b;
+    color: white;
+    transition: ease 0.2s all;
+    
+}
+.contact__button-cv{
+    width: 200px;
+    border: none;
+    margin: auto 20px;
+    outline: none;
+    cursor: pointer;
+    background-color: #00006b;
+    color: white;
+    transition: ease 0.2s all;
+}
+.contact__button.contact__button-cv:hover{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 69, 243);
+}
+.contact_section .container .card-mail{
+    
+    padding: 30px 30px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.contact_section svg{
+    margin-top: 20px;
+}
+/* contact end */
+/* footer start */
+.footer{
+background-color: #00006b ;
+color: white;
+text-align: center;
+font-weight: 500;
+padding: 5rem 0;
+box-sizing: border-box;
+margin-top: -70px;
+height: 300px;
+}
+.footer .txt{
+    margin-top: 50px;
+}
+.footer .footer_social i{
+    font-size: 2em;
+    color: white;
+}
+.footer .footer_social i:hover{
+    color: rgb(0, 117, 251);
+}
+/* footer end */
+/* Responsive */
+@media (min-width: 922px){
+    .jumbotron{
+        margin-top: 80px;
+    }
+.jumbotron .txt-dinamis span::after{
+    content: '';
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #00006b;
+    border-left: 5px solid tomato;
+    animation: typing 2.5s steps(20) infinite;
+    
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 0 0 30px;
+    }
+ }
+ .jumbotron .txt-dinamis{
+    margin-top: 50px;
+ }
+ .info-panel{
+     margin-top: -120px;
+ }
+ .about-wrap{
+     margin-bottom: 0;
+ }
+ section .project {
+     margin-top: -500px;
+ }
+ .contact_section svg{
+     margin-top: 120px;
+ }
+ .footer{
+     margin-top: 180px;
+     
+     height: 400px;
+ }
+ .footer .txt{
+     margin-top: -170px;
+ }
+ .footer .wave-footer{
+     margin-top: -120px;
+ }
+}
+
+@media (max-width : 400px){
+    .footer .wave-footer{
+        margin-top: -120px;
+        
+    }
+    .footer{
+        margin-top: 30px;
+    }
+}
+@media (min-width: 500px) and (max-width: 770px){
+    .about-wrap .panel{
+        margin-top: -250px;
+    }
+    .about .img-about{
+        margin-bottom: 30px;
+    }
+    .container.project .col h2{
+        margin-top: -90px;
+    }
+    .footer{
+        max-height: 100%;
+        height: 300px;
+        margin-top: 100px;
+    }
+    .footer .footer-title{
+        margin-top: -50px;
+    }
+    .footer .wave-footer{
+        margin-top: -90px;
+        
+    }
+    
+    
+}
