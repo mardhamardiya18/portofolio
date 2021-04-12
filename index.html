@@ -268,7 +268,10 @@
             }).then((result) => {
                 /* Read more about isConfirmed, isDenied below */
                 if (result.isConfirmed) {
-                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    fetch(scriptURL, {
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
                         .then(response => {
                             console.log('Success!', response)
                             btnKirim.classList.toggle('d-none')
