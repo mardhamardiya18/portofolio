@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/logoletter.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="mycss/style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+
+
+    <title>My Portfolio|Mardha Mardiya</title>
+
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #00006b;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/brand.png" class="page-scroll" alt="" width="150" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white page-scroll" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white page-scroll" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start Jumbotron -->
+    <div class="jumbotron text-center" id="home">
+        <img src="img/hero.webp" class="img-thumbnail rounded-circle shadow-lg" alt="Mardha Mardiya" width="250">
+        <h1 class="txt-dinamis"><span> I Am Mardha Mardiya</span></h1>
+        <h5>Web Designer | Web Developer</h5>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ffffff" fill-opacity="1" d="M0,128L40,138.7C80,149,160,171,240,160C320,149,400,107,480,117.3C560,128,640,192,720,202.7C800,213,880,171,960,160C1040,149,1120,171,1200,165.3C1280,160,1360,128,1400,112L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            </path>
+        </svg>
+    </div>
+    <!-- End Jumbotron -->
+    <!-- Start about -->
+    <div class="container about-wrap" id="about">
+        <!-- info panel -->
+        <div class="row justify-content-center panel">
+            <div class="col-10 info-panel text-center">
+                <div class="row">
+                    <div class="col-lg">
+                        <img src="img/employee.png" alt="employee" class="float-left">
+                        <h4>24 Hours</h4>
+                        <p>Berkerja secara full-time.</p>
+                    </div>
+                    <div class="col-lg">
+                        <img src="img/hires.png" alt="high res" class="float-left">
+                        <h4>High Resolution</h4>
+                        <p>Kualitas konten yang profesional.</p>
+                    </div>
+                    <div class="col-lg">
+                        <img src="img/security.png" alt="security" class="float-left">
+                        <h4>Security</h4>
+                        <p>Keamanan data yang terjamin</p>
+                    </div>
+                </div>
+            </div>
+            <!-- akhir panel -->
+        </div>
+        <div class="row text-center mb-5">
+            <div class="col ">
+                <h2>About Me</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row text-center about">
+            <div class="col-lg-6 img-about">
+                <img src="img/about.svg" alt="Mardha Mardiya">
+            </div>
+            <div class="col-lg-5">
+                <p class="fs-5">Hello, I am <span>Mardha Mardiya</span> as a <span>Web Developer</span> who will
+                    complete all of your project
+                    requests, <span>Friendly</span> , <span>Flexible</span>, and <span>Open</span> at any time, what are
+                    you waiting
+                    for</p>
+                <div class="d-flex justify-content-center ">
+                    <a href="#contact" class="btn fs-4 mt-3 contact__button" id="hire">Hire Me</a>
+                    <a href="resume/index.php" class="btn fs-4 mt-3 contact__button-cv" id="hire">View CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#00006b" fill-opacity="1" d="M0,160L48,138.7C96,117,192,75,288,80C384,85,480,139,576,165.3C672,192,768,192,864,170.7C960,149,1056,107,1152,106.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#00006b" fill-opacity="1" d="M0,32L30,80C60,128,120,224,180,266.7C240,309,300,299,360,256C420,213,480,139,540,138.7C600,139,660,213,720,202.7C780,192,840,96,900,58.7C960,21,1020,43,1080,42.7C1140,43,1200,21,1260,16C1320,11,1380,21,1410,26.7L1440,32L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z">
+        </path>
+    </svg>
+    <!-- End About -->
+    <!-- Start Project -->
+    <section id="project">
+        <div class="container project">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="text-white">Latest Project</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="portofolio-items shadow-sm img-thumbnail text-center">
+                        <img src="img/portofolio1.png" class="w-100 shadow-sm " alt="mardha mardiya">
+                        <h3 class="text-capitalize fs-5 my-2 text-danger">Landing Page Resto <br> (HTML/CSS/JavaScript)
+                        </h3>
+                        <p class=""> <a href="https://banuatumpeng.com" class="text-decoration-none text-danger ">Live
+                                Demo</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="portofolio-items shadow-sm img-thumbnail text-center">
+                        <img src="img/portofolio2.png" class="w-100 shadow-sm " alt="mardha mardiya">
+                        <h3 class="text-capitalize fs-6 my-2 text-danger">Web Application <br> Wirehouse Information
+                            <br> (PHP Native)
+                        </h3>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 ">
+                    <div class="portofolio-items shadow-sm img-thumbnail text-center">
+                        <img src="img/portofolio3.png" class="w-100 shadow-sm " alt="mardha mardiya">
+                        <h3 class="text-capitalize fs-5 my-2 text-danger">Web Application Community<br> (Laravel)
+                        </h3>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4">
+                    <div class="portofolio-items shadow-sm img-thumbnail text-center">
+                        <img src="img/portofolio4.png" class="w-100 shadow-sm " alt="mardha mardiya">
+                        <h3 class="text-capitalize fs-5 my-2 text-danger">Web Application News<br> (Vuejs axios)
+                        </h3>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4">
+                    <div class="portofolio-items shadow-sm img-thumbnail text-center">
+                        <img src="img/portofolio5.png" class="w-100 shadow-sm " alt="mardha mardiya">
+                        <h3 class="text-capitalize fs-5 my-2 text-danger">Web Design Course<br> (Figma)
+                        </h3>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4">
+                    <div class="portofolio-items shadow-sm img-thumbnail text-center">
+                        <img src="img/portofolio6.png" class="w-100 shadow-sm " alt="mardha mardiya">
+                        <h3 class="text-capitalize fs-5 my-2 text-danger">Web Design Resto<br> (Figma)
+                        </h3>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Project -->
+    <!-- contact start -->
+    <section class="contact_section" id="contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                    <h2>Contact</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6 card-mail">
+                    <div class="contact__container bd_grid">
+                        <div class="alert alert-success alert-dismissible fade show d-none alertSukses" role="alert">
+                            <strong>Berhasil!</strong> Pesan Anda telah diterima, kami akan segera membalas pesan anda
+                            melalui <strong>Email</strong> yang anda input
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        <form name="submit-to-google-sheet" action="" method="POST" class="contact__form">
+                            <input type="text" placeholder="name" name="nama" class="contact__input form-control">
+                            <input type="mail" placeholder="contactable email" name="email" class="contact__input form-control" id="email">
+                            <textarea name="isi" id="" cols="0" rows="10" class="contact__input form-control" placeholder="your message"></textarea>
+                            <input type="submit" value="Submit" class="contact__button btn btnKirim">
+                            <button class="btn btn-primary contact__button d-none btnLoad" type="button" disabled>
+                                <span class="spinner-border spinner-border-sm text-center" role="status" aria-hidden="true"></span>
+                                Loading...
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact end -->
+    <!-- footer start-->
+    <section class="footer" id="footer">
+        <svg xmlns="http://www.w3.org/2000/svg" class="wave-footer" viewBox="0 0 1440 320">
+            <path fill="#ffff" fill-opacity="1" d="M0,32L48,53.3C96,75,192,117,288,117.3C384,117,480,75,576,85.3C672,96,768,160,864,160C960,160,1056,96,1152,64C1248,32,1344,32,1392,32L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
+        <p class="footer-title txt">Mardha Mardiya</p>
+        <div class="footer_social">
+            <a href="#" class="footer__icon txt"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="footer__icon txt"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="footer__icon txt"><i class="bx bxl-instagram"></i></a>
+        </div>
+        <p>&#169; 2021 copyright All right reserved</p>
+    </section>
+    <!-- footer end -->
+    <script src="js/sweetalert2.all.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwP1wFVqv9BM7l-KpI81CdiE_H_CUTnri8MXBJHeqkc-Dcy4X-rXP4UQtSo_nQ3oDPf/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const btnKirim = document.querySelector('.btnKirim')
+        const btnLoad = document.querySelector('.btnLoad')
+        const alertSukses = document.querySelector('.alertSukses')
+
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            btnKirim.classList.toggle('d-none')
+            btnLoad.classList.toggle('d-none')
+            Swal.fire({
+                title: 'Yakin nih mau kirim?',
+                showDenyButton: true,
+                confirmButtonText: `Ya,Kirim`,
+                denyButtonText: `Batal aja`,
+            }).then((result) => {
+                /* Read more about isConfirmed, isDenied below */
+                if (result.isConfirmed) {
+                    fetch(scriptURL, {
+                            method: 'POST',
+                            body: new FormData(form)
+                        })
+                        .then(response => {
+                            console.log('Success!', response)
+                            btnKirim.classList.toggle('d-none')
+                            btnLoad.classList.toggle('d-none')
+                            form.reset()
+                        })
+                        .catch(error => console.error('Error!', error.message))
+                    Swal.fire('Yeay..Pesannya udah Terkirim ya! :)', 'Saya akan segera membalas pesan anda melalui Email yang sudah diinput tadi', 'success')
+                } else if (result.isDenied) {
+                    Swal.fire('yah..Pesannya gak jadi dikirim :(', '', 'error')
+                    btnLoad.classList.toggle('d-none')
+                    btnKirim.classList.toggle('d-none')
+                }
+            })
+
+        })
+    </script>
+
+</body>
+
+</html>
