@@ -195,26 +195,7 @@ height: 300px;
     .jumbotron{
         margin-top: 80px;
     }
-.jumbotron .txt-dinamis span::after{
-    content: '';
-    left: 0;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: #00006b;
-    border-left: 5px solid tomato;
-    animation: typing 2.5s steps(20) infinite;
-    
-}
-@keyframes typing{
-    100%{
-        left: 100%;
-        margin: 0 0 0 30px;
-    }
- }
- .jumbotron .txt-dinamis{
-    margin-top: 50px;
- }
+
  .info-panel{
      margin-top: -120px;
  }
